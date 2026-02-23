@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "airports",
+  "info": {
+    "singularName": "airport",
+    "pluralName": "airports",
+    "displayName": "Airport"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "AirportCode": {
+      "type": "string",
+      "required": true
+    },
+    "AirportName": {
+      "type": "string",
+      "required": true
+    },
+    "Country": {
+      "type": "string",
+      "required": true
+    },
+    "State": {
+      "type": "string",
+      "required": true
+    },
+    "City": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

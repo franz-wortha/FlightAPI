@@ -1,61 +1,49 @@
-# 🚀 Getting started with Strapi
+# FlightAPI
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
+## To-Do List
 
-### `develop`
+- [ ] **1. Three Collections Creation (Strapi)**
+    - [ ] Create Airline, Airport, and Flight collections.
+    - [ ] **Screenshots:** Take a separate screenshot of each of the three collection types in the Content-Type Builder.
+    - [ ] **Description:** Explain your understanding of creating these schemas and how they relate to one another.
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
+- [ ] **2. Browser Evidence of Data**
+    - [ ] Populate 3 rows per collection and Publish.
+    - [ ] **Screenshots:** Point browser to each collection URL (e.g., `/api/flights`) and capture the output.
+    - [ ] **Description:** Explain how the browser serves as a simple client to verify the API's JSON output.
 
-```
-npm run develop
-# or
-yarn develop
-```
+- [ ] **3. Postman: GET All Data**
+    - [ ] **Screenshot:** Postman request (top) and response (bottom) for retrieving all flights.
+    - [ ] **Description:** Detail the GET method's role in data retrieval from the server.
 
-### `start`
+- [ ] **4. Postman: GET by ID**
+    - [ ] **Screenshot:** Postman request and response for retrieving one specific flight (id=1 or DocumentID).
+    - [ ] **Description:** Discuss targeting specific records within a collection using unique identifiers.
 
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
+- [ ] **5. Postman: POST (Create Flight)**
+    - [ ] **Screenshot:** Postman request and response showing the creation of a new flight.
+    - [ ] **Description:** Explain the POST method and the importance of the request body (JSON).
 
-```
-npm run start
-# or
-yarn start
-```
+- [ ] **6. Browser Verification: New Flight**
+    - [ ] **Screenshot:** Browser view of the Flights collection showing the new entry.
+    - [ ] **Description:** Verifying that the POST request successfully persisted data to the database.
 
-### `build`
+- [ ] **7. Postman: PUT/Update Request**
+    - [ ] **Screenshot:** Postman request and response for updating the airline to "American Airlines" and seats to 60.
+    - [ ] **Description:** Explain the PUT method for modifying existing data (and the use of IDs for relations).
 
-Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
+- [ ] **8. Browser Verification: Updated Flight**
+    - [ ] **Screenshot:** Browser view of the Flights collection showing the updated info.
+    - [ ] **Description:** Confirming the server processed the update correctly.
 
-```
-npm run build
-# or
-yarn build
-```
+- [ ] **9. Postman: DELETE Request**
+    - [ ] **Screenshot:** Postman request and response for deleting a flight.
+    - [ ] **Description:** Discuss the DELETE method and how it removes records from the database.
 
-## ⚙️ Deployment
+- [ ] **10. Browser Verification: Deleted Flight**
+    - [ ] **Screenshot:** Browser view showing the flight is gone.
+    - [ ] **Description:** Confirming the deletion of the resource.
 
-Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
-
-```
-yarn strapi deploy
-```
-
-## 📚 Learn more
-
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://strapi.io/blog) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
-
-## ✨ Community
-
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
-
----
-
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+- [ ] **11. Python Application & Output**
+    - [ ] **Screenshots:** Strapi (the data), Postman (the code snippet), and the final VS Code terminal output.
+    - [ ] **Description:** Discuss how you moved from testing in Postman to a functional Python script.

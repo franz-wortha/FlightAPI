@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  strapi:
+    build: .
+    container_name: strapi-dev
+    ports:
+      - "1337:1337"
+    volumes:
+      - .:/app
+      - /app/node_modules
+      - ./database:/app/database
+      - ./public/uploads:/app/public/uploads
+    environment:
+      NODE_ENV: development
+      CHOKIDAR_USEPOLLING: "true"
+    restart: unless-stopped
